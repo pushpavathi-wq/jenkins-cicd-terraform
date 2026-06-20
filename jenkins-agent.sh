@@ -11,7 +11,7 @@ xfs_growfs /home
 xfs_growfs /var/tmp
 xfs_growfs /var
 
-yum install java-21-openjdk -y
+yum install java-17-openjdk -y
 
 yum install -y yum-utils
 yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
@@ -38,3 +38,5 @@ chmod 700 get_helm.sh
 ./get_helm.sh
 
 dnf install maven -y
+
+
